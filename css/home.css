@@ -1,0 +1,121 @@
+/*-------------------------- GOOGLE FONT ------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Poppins";
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+/*---------------------------------------- NAVBAR --------------------------------------- */
+.container-fluid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: lightseagreen;
+}
+
+.auth {
+  align-items: center;
+}
+
+
+
+/*---------------------------------------- FOOTER --------------------------------------- */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  flex-wrap: wrap;
+  margin-top: auto; 
+}
+
+.footer-kontak {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.footer-kontak h3 {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-kontak p {
+  font-size: 15px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-icon img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link a {
+  color: white;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer-link a:hover {
+  color: lightseagreen;
+}
+
+.footer-copyright {
+  background-color: purple;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+
